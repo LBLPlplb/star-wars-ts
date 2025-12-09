@@ -34,7 +34,7 @@ const AboutMe = () => {
                     }));
                 })
         }
-    }, [])
+    }, [heroId])
 
     return isHeroValid ? (
         <>
